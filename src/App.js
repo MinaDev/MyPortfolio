@@ -8,6 +8,7 @@ import { Parallax } from "react-parallax";
 import About from "./pages/about/about.component";
 import Container from "react-bootstrap/Container";
 import BgImage from "./assets/img/parallex/background.webp"
+import Skills  from "./pages/skills/skills.component"
 
 
 const App = () => {
@@ -32,6 +33,13 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+      <Skills/>
+      </Fade>
+            </Container>
+            </div>
       
       </div>
   );
